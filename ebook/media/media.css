@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    nav {
+        /* border-bottom: 1px solid #455468; */
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 71px);
+        background-color: #18283B;
+        left: 0;
+        top: 0;
+        text-align: center;
+        display: none;
+        margin-top: 71px;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #icon {
+        display: block;
+    }
+
+    #checkbox:checked~ul {
+        display: block;
+    }
+}
